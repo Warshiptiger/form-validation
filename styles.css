@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 1rem;
+  }
+  
+  .form-control:focus {
+    border-color: #74ebd5;
+    box-shadow: 0 0 0 0.2rem rgba(116, 235, 213, 0.25);
+  }
+  
+  .btn-primary {
+    background-color: #74ebd5;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #67d8c3;
+  }
+  
+  .invalid-feedback {
+    display: block;
+  }
+  
